@@ -1,15 +1,31 @@
 function submit(){
     const title = document.getElementById("inputTitle").value;
     const data = new Date(document.getElementById("inputDate").value).getTime()
-    const hours = document.getElementById("inputHours").value
-    const dateNow = new Date().getTime()
+    const titleUser = document.getElementsByClassName("titleUser")[0]
+    const dataUser = new Date(document.getElementById("inputDate").value).toLocaleString('pt-BR', {weekday: "long", day: "numeric", year: "numeric", month: "long", hour: "numeric", minute: "numeric", second: "numeric",})
+
+    titleUser.innerHTML = title
+    titleUser.style.padding = "10px"
+    
+    document.getElementsByClassName("dateUser")[0].innerHTML = dataUser
     
     const func = setInterval(function() {
         
+        const dateNow = new Date().getTime()
         const timeSubtr = data - dateNow
-        const days = timeSubtr / (1000 * 60 * 60 * 24)
-        const daysFormat = days.toFixed(0)
-        document.getElementsByClassName("day")[0].innerHTML = daysFormat + "d"
+        const days = Math.floor(timeSubtr / (1000 * 60 * 60 * 24))
+        const hours = Math.floor((timeSubtr % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeSubtr % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeSubtr % (1000 * 60)) / 1000);
+        
+  
+        document.getElementsByClassName("countdown")[0].innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s "
+
+
+        if (timeSubtr < 0) {
+            clearInterval(func);
+            document.getElementsByClassName("countdown")[0].innerHTML = "EXPIRED";  
+          }
   
         
         // document.getElementsByClassName("titleUser")[0].innerHTML = title;

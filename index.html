@@ -36,15 +36,7 @@
         <div class= "row justify-content-md-center">
           <label for="inputDate" class="col-sm-2 col-form-label" style="width: 155px;">Insira uma data:</label>
           <div class="col-sm-3">
-            <input type="date" class="form-control" id="inputDate">
-          </div>  
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <div class= "row justify-content-md-center">
-          <label for="inputHours" class="col-sm-2 col-form-label" style="width: 155px;">Insira o horario:</label>
-          <div class="col-sm-3">
-            <input type="time" class="form-control" id="inputHours">
+            <input type="datetime-local" class="form-control" id="inputDate">
           </div>  
         </div>
       </div>
@@ -52,12 +44,24 @@
       <div class= "row justify-content-center">
        <button type="button" class="btn btn-outline-dark" style= "width: 300px;" onclick= "submit()">Submit</button> 
       </div> 
-      <p class="titleUser"></p>
-      <p class="dateUser"></p>
-      <p class="day"></p>
-      <p class="hours"></p>
-      <p class="minute"></p>
-      <p class="seconds"></p>
+      </br>
+      </br>
+      </br>
+      <div class= "row justify-content-center">
+        <div class= "col-auto">
+          <h2 class="titleUser"></h2>
+        </div>  
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <p class="dateUser"></p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <p class="countdown"></p>
+            </div>  
+          </div>  
+        </div>  
+      </div>  
     </div>  
   </body>
 </html>
