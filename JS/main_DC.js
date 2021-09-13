@@ -1,3 +1,6 @@
+let func;
+let func2
+
 function submit(){
     if(document.getElementById('inputDate').value == ""){
         alert("Coloque uma data")
@@ -17,7 +20,7 @@ function submit(){
             
             document.getElementsByClassName("dateUser")[0].innerHTML = dataUser
             
-            const func = setInterval(function() {
+             func = setInterval(function() {
                 
                 const dateNow = new Date().getTime()
                 const timeSubtr = data - dateNow
@@ -41,7 +44,7 @@ function submit(){
         } else {
             document.getElementsByClassName("dateUser")[0].innerHTML = dataUser
 
-            const func2 = setInterval(function() {
+             func2 = setInterval(function() {
                 
                 const dateNow = new Date().getTime()
                 const timeSubtr = data - dateNow
@@ -63,7 +66,9 @@ function submit(){
              
         }    
         const divButtonCleanSubmit = document.getElementsByClassName("button-test")[0];
-        divButtonCleanSubmit.style.display = "flex";    
+        divButtonCleanSubmit.style.display = "flex";
+        document.getElementById('inputTitle').value = ""  
+        document.getElementById('inputDate').value = ""  
         
     }        
 }
