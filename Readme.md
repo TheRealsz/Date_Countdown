@@ -9,11 +9,9 @@
 * [Introdução](##Introdução)
 * [Tecnologias](##Tecnologias)
 * [Funcionalidades](##Funcionalidades)
-* [Screenshots](##Screenshots)
 * [Utilização do projeto](##tilização-do-projeto)
 * [Contato](##Contato)
 * [Status do Projeto](##Status-do-projeto)
-* [Melhorias](##Melhorias)
 * [Autores](##Autores)
 
 
@@ -42,9 +40,6 @@ Além disso, há dois inputs, no qual são necessarios para fazer o calculo do t
 - `Titulo` 
 - `Data` - Data do evento do qual o usuario deseja saber o tempo que falta ate lá.
 
-## Screenshots
-
-
 ## Utilização do projeto
 Para utilizar o projeto, é preciso unicamente acessar o link a seguir:
 
@@ -54,7 +49,7 @@ Para utilizar o projeto, é preciso unicamente acessar o link a seguir:
 Temos algumas formas de contato, elas podem ser encontradas [aqui](https://github.com/TheRealRobinho)
 
 ## Status do projeto
-:construction: Projeto em construção :construction:
+:white_check_mark: Finalizado :white_check_mark:
 
 ## Melhorias
 Planejo fazer com que seja possivel adicionar mais de um contador caso o usuario deseje. Deixando o projeto um pouco mais completo e menos limitado
