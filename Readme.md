@@ -51,8 +51,5 @@ Temos algumas formas de contato, elas podem ser encontradas [aqui](https://githu
 ## Status do projeto
 :white_check_mark: Finalizado :white_check_mark:
 
-## Melhorias
-Planejo fazer com que seja possivel adicionar mais de um contador caso o usuario deseje. Deixando o projeto um pouco mais completo e menos limitado
-
 ## Autores
 [<img src="https://avatars.githubusercontent.com/u/77800184?v=4" width=185><br><sub>Robson Diego Andrade de Oliveira</sub>](https://github.com/TheRealRobinho)
