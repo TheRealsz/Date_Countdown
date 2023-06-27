@@ -43,13 +43,13 @@ Além disso, há dois inputs, no qual são necessários para fazer o cálculo do
 ## Utilização do projeto
 Para utilizar o projeto, é preciso unicamente acessar o link a seguir:
 
-- [Date Countdown](https://therealrobinho.github.io/Date_Countdown/)
+- [Date Countdown](https://therealsz.github.io/Date_Countdown/)
 
 ## Contato
-Temos algumas formas de contato, elas podem ser encontradas [aqui](https://github.com/TheRealRobinho)
+Temos algumas formas de contato, elas podem ser encontradas [aqui](https://github.com/TheRealsz)
 
 ## Status do projeto
 :white_check_mark: Finalizado :white_check_mark:
 
 ## Autores
-[<img src="https://avatars.githubusercontent.com/u/77800184?v=4" width=185><br><sub>Robson Diego Andrade de Oliveira</sub>](https://github.com/TheRealRobinho)
+[<img src="https://avatars.githubusercontent.com/u/77800184?v=4" width=185><br><sub>Robson Diego Andrade de Oliveira</sub>](https://github.com/TheRealsz)
